@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+header {
+  background: url('360_F_506478399_l0jgZ5ZWj80o8XYdEJtYfQhVYMU56qDJ.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+  background-attachment: fixed; 
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
+.about {
+  background: url('images.jpeg') no-repeat center center/cover;
+  background-size: cover;
+  padding: 60px 0;
+  color: white;
+  
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: #f4f4f9;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.skills {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+  color: #333;
+}
+
+.skills h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills li {
+  font-size: 1.2rem;
+  margin: 10px 20px;
+  background-color: #0073e6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.skills li:hover {
+  background-color: #005bb5;
+}
+
+
+.education {
+  background: url('Background-For-Google-Slides-950x534 copy.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 60px 0;
+}
+
+.education h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.education p {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.contact {
+  background-color: #333;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+
+  .skills ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
